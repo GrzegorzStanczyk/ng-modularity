@@ -1,0 +1,17 @@
+div {
+  border: 2px dashed black;
+}
+
+:host {
+  height: 100vh;
+  display: block;
+}
+
+.main {
+  display: flex;
+  height: 85%;
+  > * {
+    display: flex;
+    flex: 1 0 auto;
+  }
+}
